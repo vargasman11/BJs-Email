@@ -1,0 +1,126 @@
+<mjml>
+    <mj-head>
+        <mj-style>
+            <style>
+                .small-strike {
+                    font-size: smaller;
+                    text-decoration: line-through;
+                }
+
+                .custom-section {
+                    display: flex;
+                }
+
+                .custom-column {
+                    flex: 1;
+                }
+
+                .custom-column img {
+                    max-width: 100%;
+                    height: auto;
+                }
+            </style>
+        </mj-style>
+        <!--ROBOTO-->
+        <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"/>
+    </mj-head>
+    <mj-body background-color="#ffffff" width="620px">
+        <!--        TOP SECTION-->
+        <mj-section background-color="#EC954F" padding="5px 0">
+            <mj-column>
+                <!-- First column content -->
+                <mj-text font-family="Helvetica Neue, Arial, Roboto" font-size="20px" color="#FFFFFF" align="center"
+                         font-weight="bold">
+                    Everyone loves an offer to help in the kitchen.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--        2 COLUMN SECTION-->
+        <mj-section padding="0px" css-class="custom-section" background-color="#FFEBB4">
+            <mj-column width="50%" padding="0px 0px" css-class="custom-column">
+                <mj-image src="./Images/lifestyle_image.jpg" padding="0px"/>
+            </mj-column>
+            <mj-column width="50%" padding="0px" css-class="custom-column">
+                <mj-image src="./Images/product-1.png" padding="0px"/>
+                <mj-image src="./Images/stars-black-five.png" width="65px" padding="5px 0"/>
+                <mj-text align="center" font-family="Helvetica Neue, Arial, Roboto" padding="0">
+                    <p style="font-size: 16px; font-weight:bold; margin:3px 0 0 0;">
+                        $79.99*
+                        <span style="font-size: 13px; font-weight: lighter">
+                            <s>99.99</s>
+                        </span>
+                    </p>
+                    <p style="font-size: 14px; font-weight: 300; margin: 3px 0 0 0;">
+                        T-fal 10-Pc. Non-Stick
+                    </p>
+                    <p style="font-size: 14px; font-weight: 300; margin: 3px 0 0 0;">Cookware Set</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--        GRID SECTION-->
+        <mj-section padding="0px" background-color="#FACC65">
+            <!--            LEFT-->
+            <mj-column background-color="#FACC65" padding-bottom="15px">
+                <mj-image src="./Images/product-2.png" padding="0px"/>
+                <mj-image src="./Images/stars-black-four_half.png" width="65px" padding="5px 0"/>
+                <mj-text align="center" font-family="Helvetica Neue, Arial, Roboto" padding="0">
+                    <p style="font-size: 16px; font-weight:bold; margin:3px 0 0 0;">
+                        $79.99*
+                        <span style="font-size: 13px; font-weight: lighter">
+                            <s>
+                                99.99
+                            </s>
+                        </span>
+                    </p>
+                    <p style="font-size: 14px; font-weight: 300; margin: 3px 0 0 0;">
+                        Shark Rotator Pet Pro Upright Vacuum
+                    </p>
+                    <p style="font-size: 14px; font-weight: 300; margin: 3px 0 0 0;">
+                        with Self-Cleaning Brush Roll
+                    </p>
+                </mj-text>
+            </mj-column>
+            <!--            RIGHT-->
+            <mj-group>
+                <mj-column background-color="#FCD98E" width="100%" padding-bottom="14px">
+                    <mj-image src="./Images/product-3.png" padding="0px"/>
+                    <mj-image src="./Images/stars-black-five.png" width="65px" padding="5px 0"/>
+                    <mj-text align="center" font-family="Helvetica Neue, Arial, Roboto" padding="0">
+                        <p style="font-size: 16px; font-weight:bold; margin:3px 0 0 0;">
+                            $ 79.99*
+                            <span style="font-size: 13px; font-weight: lighter">
+                                <s>
+                                    99.99
+                                </s>
+                            </span>
+                        </p>
+                        <p style="font-size: 14px; font-weight: 300; margin: 3px 0 0 0;">
+                            Keurig K-Slim + Iced Single Serve Coffee Maker
+                        </p>
+                    </mj-text>
+                </mj-column>
+                <mj-column background-color="#EC954F" width="100%" padding-bottom="14px">
+                    <mj-image src="./Images/product-4.png" padding="0px"/>
+                    <mj-image src="./Images/stars-black-five.png" width="65px" padding="5px 0"/>
+                    <mj-text align="center" font-family="Helvetica Neue, Arial, Roboto" padding="0">
+                        <p style="font-size: 16px; font-weight:bold; margin:3px 0 0 0;">
+                            $
+                            129.99**
+                            <span style="font-size: 13px; font-weight: lighter">
+                                <s>
+                                    159.99
+                                </s>
+                            </span>
+                        </p>
+                        <p style="font-size: 14px; font-weight: 300; margin: 3px 0 0 0;">
+                            Ninja Professional Plus
+                        </p>
+                        <p style="font-size: 14px; font-weight: 300; margin: 3px 0 0 0;">
+                            Kitchen System Blender
+                        </p>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+    </mj-body>
+</mjml>

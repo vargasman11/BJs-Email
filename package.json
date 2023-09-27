@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "mjml": "^4.14.1"
+  },
+  "scripts": {
+    "mjml": "mjml -w input.mjml -o index.html"
+  }
+}
